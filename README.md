@@ -92,5 +92,6 @@ t6se_features/   constants.py (Table 1, матрицы)  core.py (расчёт) 
 tests/           test_features.py
 data/            обучающие FASTA Bastion6
 results/         примеры расчёта для положительных и отрицательных примеров (CSV)
+results/figures  визуализация результата
 notebooks/       T6SE_features_colab.ipynb
 ```
