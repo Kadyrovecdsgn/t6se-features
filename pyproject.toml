@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "t6se-features"
+version = "0.1.0"
+description = "AAC, DPC, QSO and physicochemical (CTDC/CTDT) features for type VI secreted effector (T6SE) prediction, following Bastion6"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.23", "pandas>=1.5", "biopython>=1.80", "propy3>=1.0"]
+
+[project.optional-dependencies]
+gpu = ["cupy-cuda12x"]
+dev = ["pytest"]
+
+[project.scripts]
+t6se-features = "t6se_features.cli:main"
+
+[tool.setuptools]
+packages = ["t6se_features"]
