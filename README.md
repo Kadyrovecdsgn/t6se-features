@@ -94,10 +94,3 @@ data/            обучающие FASTA Bastion6
 results/         примеры расчёта для положительных и отрицательных примеров (CSV)
 notebooks/       T6SE_features_colab.ipynb
 ```
-
-## Литература
-
-Wang J. et al. Bastion6: a bioinformatics approach for accurate prediction of type VI secreted effectors. *Bioinformatics* 34(15), 2018, 2546–2555.
-Chou K.C. Prediction of protein subcellular locations by incorporating quasi-sequence-order effect. *BBRC* 278, 2000, 477–483.
-Dubchak I. et al. Prediction of protein folding class using global description of amino acid sequence. *PNAS* 92, 1995, 8700–8704.
-Cao D.-S. et al. propy: a tool to generate various modes of Chou's PseAAC. *Bioinformatics* 29(7), 2013, 960–962.
