@@ -31,7 +31,7 @@ git clone https://github.com/<user>/t6se-features.git
 cd t6se-features
 pip install -r requirements.txt
 pip install -e .            # даёт команду t6se-features
-pip install cupy-cuda12x    # только если нужен GPU (в Colab обычно уже есть)
+pip install cupy-cuda12x    # только если нужен GPU (хотя тут он не нужен)
 ```
 
 ## Использование
